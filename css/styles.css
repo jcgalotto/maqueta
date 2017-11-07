@@ -1,0 +1,975 @@
+*{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+
+}
+@font-facex1 {
+font-family: 'bromello';
+font-style: normal;
+font-weight: normal;
+src: local('bromello'), url('bromello.woff') format('woff');
+}
+
+
+.bromel{
+  font-family: 'bromello';
+  
+
+}
+body{
+  position: relative;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+   font-family: 'Lato', sans-serif;
+   color:#777777;
+}
+.btn{
+  border-radius: 0px !important;
+}
+
+.btn-default{
+  border-radius: 0 !important;
+}
+.preheader{
+
+  color: #817e7f;
+ 
+  background: #282224;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+text-align: center;
+  height: 1.4%;
+  padding-top: 0.5%;
+  padding-bottom: 0.6%
+
+
+}
+
+.preheader ul li{
+  margin-right: 1.9%
+}
+
+
+.preheader img{
+ margin-right: 2px;
+}
+
+
+ header {
+background: url("../img/principal.png");
+background-attachment: inherit;
+background-repeat: no-repeat;
+text-align: center;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 600px;
+margin-top: -10px;
+
+
+ }
+ header a{
+    color:#ffffff;
+  text-decoration: none;
+  }  
+
+header nav li{
+  padding-right: 4.1% !important;
+}
+header nav li .first{
+  padding-right: 4.6% !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+ header a:hover{
+   text-decoration: none;
+   color:#ffffff;
+   background: transparent;
+    border: 3px solid #ffffff;
+    padding: 5px;   
+ }
+ header nav li a:hover{
+   text-decoration: none;
+  border: 1px, solid;
+  background: transparent;
+ }
+
+  header nav li a{
+   text-decoration:none;
+   color:#ffffff;
+   
+ }
+   header nav li a:active{
+   text-decoration:none!important;
+   color:#ffffff!important;
+   
+ }
+
+
+ .navbar-inverse{
+  transition: all 1s;
+ padding-bottom: 1.5% !important;
+ padding-top: 1.5% !important;
+
+ }
+
+
+header nav {
+font-family: 'Lato', sans-serif; 
+
+
+  width: 100%;
+
+}
+
+nav ul{
+
+  margin-top:5% !important;
+  margin-right: 31,5% !important;
+  font-size: 16px;
+}
+
+ header img{
+margin-top: 8%;
+
+ }
+
+#home{
+   background: url("../img/home.png");
+background-attachment: inherit;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+ }
+
+ .thome{
+  padding-top: 1%;
+ }
+
+.florhome{
+ 
+
+}
+
+.cuerpoHome{
+  
+
+  display: inline-block;
+
+}
+
+ #home h4{
+color:#6b3849 !important;
+
+
+ }
+ .destacado{
+  color:#6b3849 !important;
+ }
+
+ .conoce{
+  
+  color:#f495ab !important;
+  margin-top: 2%;
+  width: 13.3%;
+  height: 38px;
+ }
+ .conoce a{
+  
+  color:#f495ab !important;
+  margin-top: 2%;
+ }
+
+  .conoce a:hover{
+  
+  color:#f495ab !important;
+  margin-top: 2%;
+  text-decoration: none;
+ }
+
+
+ #home .btn{
+  border:   1px solid #f495ab;
+  width: 207px;
+  height: 38px;
+  
+  
+ }
+
+ #home .btn-default{
+  color:#f495ab !important;
+  border-color:#f495ab !important; 
+background: transparent;
+ }
+.texthome{
+
+   background: transparent;
+   
+ }
+
+#home .col-md-5{
+text-align: left;
+}
+#home .col-md-3{
+text-align: right;
+}
+
+ #rooms{
+background: url(../img/home2.png);
+background-repeat: no-reffpeat;
+background-attachment:inherit;
+background-size: cover;
+background-position: center;
+width: 100%;
+text-align: center;
+z-index:0 ;
+height: 700px;
+
+}
+
+
+
+
+#rooms .imgroom{
+
+   display: inline-block;
+  vertical-align: top;
+ margin-top: 200px;
+  
+  
+}
+
+#rooms  .imagen1 .col-md-4{
+
+text-align: right;
+
+}
+
+#rooms  .imagen2 .col-md-4{
+
+text-align: left;
+
+}
+
+ 
+
+
+ #rooms .btn{
+      color:#FFFFFF !important;
+  border-color:#FFFFFF !important; 
+background: transparent;
+height: 38px;
+width: 207px;
+}
+
+.btnpadding{
+  margin-top: 100px !important;
+  padding-bottom: 150px;
+  
+}
+
+#serv{
+  background:url("../img/servf.png");
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: inherit;
+ text-align: center;
+width: 100%;
+z-index: 0;
+  display: block;
+  color: #FFFFFF;
+ 
+}
+#serv .col-md-3{
+text-align: left;
+}
+.imgserv{
+
+  padding-top: 2%!important;
+}
+
+#serv p{
+  color:#FFFFFF;
+
+}
+#serv img{
+
+margin-top: 5% !important;
+padding-bottom: 5%;
+ }
+
+.servs{
+  width:100%;
+  display: inline-block;
+}
+ #serv .btn-default{
+  color:#FFFFFF !important;
+  border-color:#FFFFFF !important; 
+background: transparent;
+}
+.btnserv{
+  
+  color:#FFFFFF !important;
+ 
+  background: transparent;
+  
+  width: 13,3% !important;
+  height: 38px !important;
+  
+ }
+
+
+.btnserv a{
+  color:#FFFFFF !important;
+  text-decoration: none;
+ }
+
+ .btnserv a:hover{
+  color:#FFFFFF !important;
+  text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+#pics{
+
+background: url("../img/fotos.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: center;
+width: 100%;
+height: 500px;
+
+}
+ #pics .btn-default{
+  color:#FFFFFF !important;
+  border-color:#FFFFFF !important; 
+background: transparent;
+}
+ #pics img{
+
+ 
+margin-top: 10%!important;
+
+ }
+
+.btnpic a:hover{
+  color:#FFFFFF !important;
+  text-decoration: none;
+ }
+
+#cont{
+ 
+
+}
+
+.fcont{
+  background: #f48ba1;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: center;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  width: 50%;
+  height: 500px;
+border: 0px;
+
+}
+
+.fcont img{
+margin-bottom: 5%!important;
+
+}
+  .maps{
+  width: 50%;
+background: transparent;
+ display: inline-block;
+border: 0px;
+  vertical-align: bottom;
+  display: block;
+
+}
+
+iframe{
+  
+  width: 100%;
+  height: 500px;
+ display: block;
+}
+
+.fcont img{
+margin-top: 10%;
+}
+
+.fcont form{
+
+margin-top: 1%
+}
+.fcont input {
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid;
+  border-color: #FFFFFF;
+  width: 50%;
+  color: #FFFFFF;
+
+  font-family: 'Lato', sans-serif;
+  
+}
+.fcont input::-webkit-input-placeholder {
+   color: #FFFFFF;
+   text-align: center;
+}
+.fcont input::-moz-placeholder {
+   color: #FFFFFF;
+   text-align: center;
+}
+.fcont textarea{
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid;
+  border-color: #FFFFFF;
+  width: 50%;
+ color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+
+}
+.fcont textarea::placeholder{
+   color: #FFFFFF;
+  text-align: center;
+  padding-top: 45px;
+
+
+}
+.fcont textarea::-moz-placeholder{
+   color: #FFFFFF;
+  text-align: center;
+  margin-top: 45px;
+
+
+}
+.enviarB{
+  border: #FFFFFF 2px solid !important;
+  color:#FFFFFF !important;
+  margin-top: 0!important;
+  background: transparent;
+
+}
+.enviarB a:hover{
+  color: #FFFFFF;
+   
+}
+
+.fcont .btn{
+width: 207px;
+height: 38px;
+}
+
+.enviarB a:hover{
+  background: transparent;
+}
+.fcont .value{
+ color: #FFFFFF
+}
+
+
+
+.prefooter{
+  background:  #282224;
+background-repeat: no-repeat;
+
+background-size: cover;
+background-position: center;
+text-align: center;
+color: #817e7f;  
+height: inherit;
+width: 100%;
+
+
+
+}
+.prefooter ul{
+
+
+padding-top: 100px;
+padding-left: 65px !important;
+margin-bottom: 100px;
+
+display: block;
+}
+
+.prefooter .container{
+ 
+}
+/*.prefooter ul li{
+  width: 30%;
+  margin-top: 2%;
+}*/
+
+ul .row{
+  
+}
+
+
+
+footer{
+ 
+  background: #87ead2;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block; 
+  z-index: 0
+}
+
+section{
+  overflow: auto;
+}
+footer .imgfoot{
+  
+  margin-top: -41px;
+text-align: center;
+ display: inline-block;
+  
+}
+
+
+
+footer h4{
+font-size: 12px;
+
+
+}
+
+footer img{
+
+}
+footer .text1{
+  width: 100%;
+  margin-left: 25px;  
+  margin-top: 20px;
+  display: block;    
+}
+footer  .col-md-5 .text1{
+text-align: right;
+
+
+}
+
+footer .text2{
+ margin-left: -30px;
+
+ margin-top: 20px;
+ display: ;
+
+
+}
+
+#text2 .col-md-5{
+  text-align: left;
+}
+
+
+.flor0{
+
+ position: absolute;
+
+ z-index: 1;
+    margin-top: -87px;
+    margin-left: 0px;
+    height: 87px;
+
+
+  }
+
+  .flor1{
+ 
+  float: right;
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: right;
+  width: 100%;  
+ position: absolute;
+ margin-top: -65px;
+ z-index: 1;
+}
+
+.flor2{
+
+ position: absolute;
+width: 100%;
+z-index: 1;
+margin-top: -40px;
+
+text-align: center;
+  }
+
+  //Botones
+  #rooms .btn{
+  border: 1px solid #FFFFFF;
+   width: 207px;
+   height: 38px;
+}
+
+#serv .btn{
+  border: 1px solid #FFFFFF;
+   width: 207px;
+   height: 38px;
+
+}
+
+#pics .btn{
+  border: 1px solid #FFFFFF;
+   width: 207px;
+   height: 38px;
+}
+
+/*@media only screen and (min-height : 700px) {
+  #mainNav{
+
+    background: #282727;
+  }
+}*/
+
+@media (max-width: 1000px) {
+
+nav{
+  margin-top: 45px;
+}
+
+#rooms  .imagen1 .col-md-4{
+
+text-align: center;
+
+}
+
+#rooms  .imagen2 .col-md-4{
+
+text-align: center;
+
+}
+
+
+.prefooter .container{
+
+
+position: relative;
+}
+.prefooter .col-sm-12{
+display: block;
+
+}
+
+
+
+footer #text1 .col-md-5{
+text-align: center;
+}
+footer .text1{
+
+margin-left: 0;
+  display: inline;   
+
+
+}
+footer #text2 .col-md-5{
+text-align: center;
+}
+
+footer .text2{
+
+
+margin-left: 0;
+ display: inline;
+
+
+}
+
+
+
+
+#serv .col-md-3{
+text-align: center;
+
+}
+  .fcont{
+  
+  
+  width: 100%;
+  
+
+}
+  .maps{
+  width: 100%;
+
+
+
+}
+  
+}
+
+
+
+ @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+
+    .fcont{
+  
+  
+  width: 100%;
+  
+
+}
+  .maps{
+  width: 100%;
+
+
+}
+    nav ul {
+   width: 100%;
+   margin: auto;
+}
+
+    .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+  header {
+
+background-repeat: no-repeat;
+background-attachment: local;
+width: 100%;
+height: 600px;
+}
+
+  header img{
+  margin-top: 15%;
+  
+  margin-left: 0;
+  max-width: 400px;
+  }
+
+
+
+
+
+  #home{
+   background: url("../img/home.png");
+background-attachment: inherit;
+background-repeat: no-repeat;
+width: 100%;
+height: 700px;
+}
+  .imagenes img{
+
+
+}
+ .vcb{
+  
+  color:#FFFFFF !important;
+  margin-top: 25%!important;
+  background: transparent;
+  margin-top: 20%!important;
+ }
+
+#rooms h2{
+    font-size: 47px;
+  }
+   
+#serv{
+  background:url("../img/servf.png");
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: inherit;
+ text-align: left; !important;
+width: 100%;
+z-index: 0;
+}
+}
+
+
+ @media only screen
+ and (min-device-width : 490px)
+ and (max-device-width : 750px)
+ {
+
+
+
+    .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+    #home{
+   background: url("../img/home.png");
+                <br>
+                <br>
+                
+background-attachment: inherit;
+background-repeat: no-repeat;
+width: 100%;
+
+   }
+
+  .imagenes img{
+ 
+
+}
+ .vcb{
+  
+  color:#FFFFFF !important;
+  
+  background: transparent;
+  
+ }
+
+
+
+  footer img{
+  margin-top: -30%!important
+}
+
+ 
+}
+
+
+
+
+
+  
+
+
+ @media only screen
+ and (min-device-width : 760px)
+ and (max-device-width : 900px)
+
+  
+     {
+
+      #rooms img{
+  width: 40%;
+  height: 40%;
+ 
+}
+
+
+
+
+   #home{
+   background: url("../img/home.png");
+background-attachment: inherit;
+background-repeat: no-repeat;
+width: 100%;
+height: 700px;
+}
+  #rooms img{
+  height: 50%;
+  width: 50%;
+  margin: 5%;
+  
+ 
+
+}
+  .imagenes{
+  margin-top: 15%;
+  margin-left: 5%!important;
+
+}
+
+
+
+   }
+
+ @media only screen
+ and (min-device-width : 1024px)
+ and (max-device-width : 1200px)
+
+  
+ {
+      nav ul {
+  
+}
+
+    .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+
+   }
+
+
+ @media only screen
+ and (min-device-width : 1205px)
+  and (max-device-width : 1400px)
+
+  {
+nav ul {
+    position: relative;
+    
+    transform: translatex(90%);
+}
+
+    }
+ @media only screen
+ and (min-device-width : 1920px)
+ 
+
+  {
+
+
+#rooms{
+  text-align: center;
+}
+#rooms .imagenes{
+  
+}
+
+    }
